@@ -17,10 +17,14 @@ html {
 body {
   background-color: black;
   color: white;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
 }
 
 .container {
-  max-width: 840px;
+  max-width: 600px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -49,6 +53,10 @@ h1.site-title span {
   background-color: #141518;
 }
 
+.product.container {
+  background-color: red;
+  display: flex;
+}
 .product__image {
   width: 6rem;
   height: auto;
@@ -57,4 +65,27 @@ h1.site-title span {
 .t-shirt {
   stroke: #000;
   stroke-width: 2;
+}
+
+.product__colors {
+  padding-left: 40px;
+}
+.colors {
+  display: flex;
+}
+.color {
+  margin-left: 8px;
+  flex-basis: 25%;
+}
+
+.tlacitko {
+  padding: 120px 0 0 20px;
+}
+.objednavka {
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+  height: 30px;
+  width: 120px;
+  border-radius: 15px;
 }
